@@ -26,7 +26,7 @@ if (isset($_POST['payload'])) {
 
 $commands = [
     'cd ' . LOCAL_DIR,
-    'git fetch',
+    'git pull',
     'git reset --hard',
     'git log -1',
     'composer update',
@@ -37,6 +37,6 @@ $commands = [
 foreach($commands as $command) {
     $output = shell_exec($command);
     if(LOG) {
-        echo strtr($command, [GITHUB_TOKEN=>'TOKEN']) . '<br>' . $output . '<br>';
+        echo strtr($command, [GITHUB_TOKEN=>'TOKEN']) . "<br>\r\n" . $output . "<br>\r\n";
     }
 }
