@@ -28,7 +28,9 @@ $commands = [
     'cd ' . LOCAL_DIR,
     'git fetch',
     'git reset --hard',
-    'git log -1'
+    'git log -1',
+    'composer update',
+    'npm run build',
 ];
 
 
