@@ -2,11 +2,11 @@
 
 
 // SETTINGS
-const REPOSITORY = 'https://github.com/pcipov/latexmania.git';
+const REPOSITORY = 'https://github.com/pcipov/test.git';
 const LOGIN = 'pcipov';
 const TOKEN = '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';
 const BRANCH = 'production';
-const DIR = '~/latexmania.sk/web';
+const DIR = '~/latexmania.sk/sub/test';
 
 
 // CHECK BRANCH
