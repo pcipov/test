@@ -12,7 +12,7 @@ const LOG = true;
 
 // CHECK LOCAL TOKEN
 if( !isset($_GET['token']) || $_GET['token'] !== LOCAL_TOKEN ) {
-    exit;
+//    exit;
 }
 
 // CHECK BRANCH
