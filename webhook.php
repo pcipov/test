@@ -11,7 +11,7 @@ const LOCAL_TOKEN = 'QNj3x2FmtMpkRzb';
 const LOG = true;
 
 // CHECK LOCAL TOKEN
-if( $_GET['token'] !== LOCAL_TOKEN ) {
+if( !isset($_GET['token']) || $_GET['token'] !== LOCAL_TOKEN ) {
     exit;
 }
 
