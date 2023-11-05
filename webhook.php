@@ -27,7 +27,7 @@ if (isset($_POST['payload'])) {
 $commands = [
     'cd ' . LOCAL_DIR,
     'git pull',
-    'git reset --hard',
+//    'git reset --hard',
     'git log -1',
     'composer update',
     'npm run build',
