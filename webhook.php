@@ -5,7 +5,7 @@
 const REPOSITORY = 'https://github.com/pcipov/test.git';
 const LOGIN = 'pcipov';
 const TOKEN = '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';
-const BRANCH = 'production';
+const BRANCH = 'master';
 const DIR = '~/latexmania.sk/sub/test';
 
 
